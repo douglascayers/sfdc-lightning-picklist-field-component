@@ -1,6 +1,6 @@
 # Lightning Picklist Field Select Component
 
-Lightning Component that renders `lightning:select` with options from an sobject picklist field.
+Lightning Component that renders `lightning:select` with options from an sobject picklist field. Ideally, this component shouldn't be needed but as of Winter '16 release the `force:inputField` component has a [bug that when used with picklist fields it renders disabled](https://success.salesforce.com/issues_view?id=a1p3A0000001BaTQAU). Disabled form fields are not conducive to users entering data.
 
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
