@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Created by Lightning App Builder</description>
+    <flexiPage>Demo_PicklistSelect_Component</flexiPage>
+    <label>Demo PicklistSelect Component</label>
+    <mobileReady>true</mobileReady>
+    <motif>Custom60: Umbrella</motif>
+</CustomTab>
