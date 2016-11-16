@@ -11,9 +11,9 @@
     <aura:attribute name="class" type="String" description="A CSS class that will be applied to the outer element. This style is in addition to base classes associated with the component."/>
     
     <!-- event handlers, as exposed by lightning:select component -->
-    <aura:attribute name="onblur" type="Object" description="The action triggered when the element releases focus."/>
-    <aura:attribute name="onfocus" type="Object" description="The action triggered when the element receives focus."/>
-    <aura:attribute name="onchange" type="Object" description="The action triggered when a value attribute changes."/>
+    <aura:attribute name="onblur" type="Aura.Action" description="The action triggered when the element releases focus."/>
+    <aura:attribute name="onfocus" type="Aura.Action" description="The action triggered when the element receives focus."/>
+    <aura:attribute name="onchange" type="Aura.Action" description="The action triggered when a value attribute changes."/>
     
     <aura:attribute name="options" type="List" access="private" description="The picklist options to choose from. Populated during component initialization."/>
     
