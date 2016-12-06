@@ -1,14 +1,14 @@
 public with sharing class PicklistSelectController {
 
-	/**
-	 * Given an API object and field name, returns the configured field label to display to users.
-	 */    
+    /**
+     * Given an API object and field name, returns the configured field label to display to users.
+     */    
     @AuraEnabled
     public static String getFieldLabel( String objectName, String fieldName ) {
         
         System.debug( 'Getting field label: objectName=' + objectName + ', fieldName=' + fieldName );
         
-		String label = Schema.getGlobalDescribe().get( objectName ).getDescribe().fields.getMap().get( fieldName ).getDescribe().getLabel();
+        String label = Schema.getGlobalDescribe().get( objectName ).getDescribe().fields.getMap().get( fieldName ).getDescribe().getLabel();
         
         System.debug( 'label= ' + label );
         
